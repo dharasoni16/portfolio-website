@@ -311,6 +311,7 @@ button:focus,
 
 .page-description {
   padding: 20px;
+  text-align: justify;
 }
 
 table {
