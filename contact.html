@@ -1,119 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Dhara Soni</title>
-    <link href="./img/favicon-32x32.png" rel="shortcut icon" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
-  </head>
-  <body>
-    <header class="page-header">
-      <img
-        src="img/Dhara_Logo.png"
-        class="page-header__item"
-        id="logo"
-        alt="Profile_logo"
-      />
-      <nav class="page-header__item">
-        <ul role="menubar" class="navigation-list">
-          <li role="presentation">
-            <a href="index.html" role="menuitem" class="navigation-list__item"
-              >Home</a
-            >
-          </li>
-          <li role="presentation">
-            <a href="about.html" role="menuitem" class="navigation-list__item"
-              >About Me</a
-            >
-          </li>
-          <li role="presentation">
-            <a href="work.html" role="menuitem" class="navigation-list__item"
-              >Work</a
-            >
-          </li>
-          <li role="presentation">
-            <a
-              href="contact.html"
-              role="menuitem"
-              class="navigation-list__item navigation-list__item--active"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section class="flex-container">
-      <div class="contact-form">
-        <h1>Contact Me</h1>
-        <form action="" method="post" id="contact-form">
-          <label for="name">Name:</label><br />
-          <input type="text" id="name" name="name" required />
-          <br /><br />
 
-          <label for="email" class="standard-label">Email:</label><br />
-          <input type="email" id="email" name="email" required />
-          <br /><br />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Dhara Soni</title>
+  <link href="./img/favicon-32x32.png" rel="shortcut icon" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+</head>
 
-          <label for="phone_number" class="standard-label">Telephone: </label
-          ><br />
-          <input
-            type="tel"
-            id="phone_number"
-            name="phone_number"
-            pattern="\d{3}[\-]\d{3}[\-]\d{4}"
-          />
-          <br /><br />
+<body>
+  <header class="page-header">
+    <img src="img/Dhara_Logo.png" class="page-header__item" id="logo" alt="Profile_logo" />
+    <nav class="page-header__item">
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="flex-container">
+    <div class="contact-form">
+      <h1>Contact Me</h1>
+      <form action="" method="post" id="contact-form">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required />
+        <br /><br />
 
-          <label for="msg" class="standard-label">Message:</label><br />
-          <textarea
-            id="msg"
-            rows="5"
-            cols="30"
-            name="msg"
-            maxlength="240"
-            required
-          ></textarea>
-          <br /><br />
+        <label for="email" class="standard-label">Email:</label><br />
+        <input type="email" id="email" name="email" required />
+        <br /><br />
 
-          <input type="submit" value="Send Message" class="button" />
-        </form>
-      </div>
-      <div class="contact-info">
-        <h2>Can Also Reach Me Out By</h2>
-        <p> 
-        Tel:<a href="tel:012212224242">Call Me:012212224242</a><br />
-        Email:<a href="mailto:dhara@gmail.com">dhara@gmail.com</a><br />
-        Skype:<a href="skype:Dhara">Dhara Soni</a><br />
+        <label for="phone_number" class="standard-label">Telephone: </label><br />
+        <input type="tel" id="phone_number" name="phone_number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
+        <br /><br />
+
+        <label for="msg" class="standard-label">Message:</label><br />
+        <textarea id="msg" rows="5" cols="30" name="msg" maxlength="240" required></textarea>
+        <br /><br />
+
+        <input type="submit" value="Send Message" class="button" />
+      </form>
+    </div>
+    <div class="contact-info">
+      <h2>Can Also Reach Me Out By</h2>
+      <p>
+        <!-- Tel:<a href="tel:012212224242">Call Me:012212224242</a><br /> -->
+        Email:<a href="mailto:dharasoni.1692@gmail.com">dhara@gmail.com</a><br />
+        Skype:<a href="skype:dhara soni">Dhara Soni</a><br />
         <a href="mailto:dharasoni.1692@gmail.com">Contact Me</a>
       </p>
-      </div>
-    </section>
-    <footer class="page-footer">
-      <p>Find me on</p>
-      <div class="social-media">
-        <a href="https://github.com/dharasoni16" target="_blank">
-          <img src="./img/github-icon.svg" alt="Github" />
-        </a>
-        <a href="https://twitter.com/?lang=en" target="_blank">
-          <img src="./img/twitter-icon.svg" alt="Twitter" />
-        </a>
-        <a href="https://www.linkedin.com/in/dhara-soni-0819a0123" target="_blank">
-          <img src="./img/linkedin-icon.svg" alt="LinkedIn" />
-        </a>
-      </div>
-    </footer>
-    <script src="./js/tota11y.min.js"></script>
-  </body>
+    </div>
+  </section>
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <a href="https://github.com/dharasoni16" target="_blank">
+        <img src="./img/github-icon.svg" alt="Github" />
+      </a>
+      <a href="https://twitter.com/?lang=en" target="_blank">
+        <img src="./img/twitter-icon.svg" alt="Twitter" />
+      </a>
+      <a href="https://www.linkedin.com/in/dhara-soni-0819a0123" target="_blank">
+        <img src="./img/linkedin-icon.svg" alt="LinkedIn" />
+      </a>
+    </div>
+  </footer>
+  <script src="./js/tota11y.min.js"></script>
+</body>
+
 </html>
