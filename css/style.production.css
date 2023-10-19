@@ -257,7 +257,7 @@ button:focus,
 }
 
 .project-img {
-  width: 550px;
+  width: 500px;
 }
 
 /* start grid fallback */
@@ -284,6 +284,7 @@ button:focus,
     margin: 0;
     border-radius: 15px;
     padding: 10px;
+    text-align: center;
   }
 
   /* .grid__item:last-child {
