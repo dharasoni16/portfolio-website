@@ -256,6 +256,10 @@ button:focus,
   transform: scaleX(1);
 }
 
+.project-img {
+  width: 550px;
+}
+
 /* start grid fallback */
 .grid__item {
   display: inline-block;
@@ -278,6 +282,7 @@ button:focus,
     width: auto;
     min-height: auto;
     margin: 0;
+    border-radius: 15px;
     padding: 10px;
   }
 
