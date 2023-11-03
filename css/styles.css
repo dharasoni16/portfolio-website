@@ -304,6 +304,10 @@ td {
     font-size: 16px;
     font-weight: 500;
   }
+
+  .project-img {
+    width: 347px;
+  }
 }
 
 @media all and (min-width: 500px) and (max-width: 750px) {
